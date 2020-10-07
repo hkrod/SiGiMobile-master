@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SiGi-Mobile</string>
+    <string name="action_settings">Settings</string>
+
+  <string name="txtbienvenidos">Bienvenidos</string>
+  <string name="txtcarnet">Carnet</string>
+  <string name="txtclave">Clave</string>
+  <string name="txtingresar">Ingresar</string>
+
+  <string name="txtdirectorio">Directorio Telefonico UNAN-Managua</string>
+  <string name="txtcontacto">Informacion de Contacto</string>
+
+  <string name="txtdir">Rotonda Universitaria Rigoberto López Pérez 150 metros al este, Managua.</string>
+  <string name="txtpostal">Código postal: 663</string>
+  <string name="txttel">Teléfonos: (+505) 2278 6764 (+505) 2278 6769</string>
+  <string name="txtemail">Correo: info@unan.edu.ni</string>
+</resources>

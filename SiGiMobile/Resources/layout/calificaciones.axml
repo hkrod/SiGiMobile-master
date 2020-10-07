@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	android:background="@android:color/white"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:focusable="true"
+    android:focusableInTouchMode="true"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+	android:orientation="vertical"
+		android:background="@android:color/white"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:id="@+id/relativeLayout1">
+		<ImageButton
+			android:padding="20dp"
+			android:background="@android:color/white"
+			android:src="@drawable/backnegro"
+			android:scaleType="fitCenter"
+			android:layout_width="72dp"
+			android:layout_height="match_parent"
+			android:id="@+id/imageButton2" />
+		<TextView
+			android:text="Historial Calificaciones"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="10dp"
+			android:layout_centerVertical="true"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1" />
+	</RelativeLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:padding="20dp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:background="@android:color/holo_blue_light"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+		<TextView
+			android:text="Ciencia e Ingeniería"
+			android:textColor="@android:color/white"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView2" />
+		<TextView
+			android:text="409- Ing. en Computación || Plan 16"
+			android:textColor="@android:color/white"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView3" />
+		<TextView
+			android:text="10/10 asignaturas"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="@android:color/white"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txttotal" />
+	</LinearLayout>
+	<TextView
+		android:layout_marginLeft="20dp"
+		android:text="Seleccione un periodo"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView5" />
+		
+	<Spinner
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinner1" />
+		<ListView
+			android:paddingBottom="10dp"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/listView1" />
+		
+
+</LinearLayout>
+	
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+		    android:layout_marginBottom="10dp"
+		android:layout_marginLeft="10dp"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentLeft="true"
+		    android:background="@color/material_grey_300"
+		    android:hint="Nombre asignatura"
+			android:drawableLeft="@android:drawable/ic_menu_search"
+			android:id="@+id/txtbusqueda" />
+	<FrameLayout
+			android:minWidth="25px"
+			android:minHeight="25px"
+		     android:padding="15dp"
+		    android:layout_margin="5dp"
+		    android:background="@drawable/circlebuttom"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentRight="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		
+			android:id="@+id/frameLayout1" >
+      <ImageButton
+			
+			android:background="@android:color/transparent"
+			android:src="@drawable/printerw"
+		   
+			android:scaleType="fitCenter"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:id="@+id/imageButton3" />
+		</FrameLayout>
+
+
+</RelativeLayout>

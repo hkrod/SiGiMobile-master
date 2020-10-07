@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#1B3147</color>
+    <color name="colorAccent">#3498db</color>
+  <color name="colorFondoPanel">#FBB908</color>
+  <color name="colorAmrilloDark">#CA8D00</color>
+  <color name="colorButtonMenu">#003457</color>
+  <color name="colorRojo">#DC2F34</color>
+</resources>
